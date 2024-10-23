@@ -5,9 +5,9 @@ Description: github-codepipeline
 Parameters:
 
 
-  GitHubOwner:
+  GitHubOwner: 
     Type: String
-    Default: shrestha-ajay #replace with your github username
+    Default: leracraft #replace with your github username
     AllowedPattern: "[A-Za-z0-9-]+"
 
   RepositoryName:
